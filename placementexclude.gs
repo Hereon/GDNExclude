@@ -1,5 +1,5 @@
 function main() {
-  var EXCLUSION_LIST_NAME = 'Plcement_exclude_Parkour';
+  var EXCLUSION_LIST_NAME = 'Plcement_exclude_list';
 
   var query = [
       "SELECT group_placement_view.placement, group_placement_view.placement_type, metrics.impressions, metrics.clicks, metrics.conversions " +
